@@ -8,6 +8,10 @@ git clone https://github.com/AxmetES/jupyter_notebook_weather_analytics.git
 ```bash
 cd jupyter_notebook_weather_analytics
 ```
+#### create environment:
+```bash
+python3 -m venv venv
+```
 #### activate environment:
 ```bash
 source venv/bin/activate
@@ -20,13 +24,14 @@ pip install -r requirements.txt
 ```bash
 python3 main.py
 ```
+parsed weather data will save in 
+```parsed_weather_data.csv``` csv file.
 #### start jupyter notebook:
 ```bash
 jupyter notebook
 ```
-
 in
 ```bash
 http://localhost:8888/tree
 ```
-#### open file ```hello world.ipynb```
+open file ```hello world.ipynb```
